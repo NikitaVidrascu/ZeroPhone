@@ -1,0 +1,146 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+nav{
+    width: 75%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.imagen-logo{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.izquierda-nav{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.derecha-nav{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo{
+    color: white;
+    text-decoration: none;
+}
+
+.boton-nav{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.texto-boton-nav{
+    margin-left: 5px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 200px;
+}
+
+.contenedor-producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 50px;
+}
+
+.contenedor-imagen img {
+    width: 200px;
+}
+
+.informacion-producto {
+    padding: 20px;
+}
+
+.informacion-producto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.informacion-producto p {
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.especificaciones-producto p {
+    margin-bottom: 5px;
+}
+
+.especificaciones-producto strong {
+    color: black;
+}
+
+.contenedor-precio {
+    text-align: center;
+}
+
+.precio {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.agregar-carrito {
+    background-color: #f0ad00;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.agregar-carrito:hover {
+    background-color: #e69a00;
+}
+
+footer{
+    height: 200px;
+}
