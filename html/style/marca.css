@@ -5,9 +5,9 @@ body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
+
 }
 
-<<<<<<<< HEAD:html/style/marca.css
 header {
     width: 100%;
     position: fixed;
@@ -33,14 +33,14 @@ nav {
 }
 
 .izquierda-nav {
-    width: 20vw;
+    width: 25vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .derecha-nav {
-    width: 20vw;
+    width: 25vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,21 +67,13 @@ nav {
     margin-left: 5px;
 }
 
-main {
-========
 main{
->>>>>>>> cc7146c81ea7a3f9f6b7396bed0701a78391f907:html/style/samsung.css
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-top: 100px;
-}
-
-.titulo-main {
-    font-size: 50px;
-    margin-top: 60px;
+    padding-top: 200px;
 }
 
 .contenedor-producto {
@@ -93,11 +85,11 @@ main{
     padding: 20px;
     border-radius: 10px;
     width: 60%;
-    margin: 20px;
+    margin: 50px;
 }
 
 .contenedor-imagen img {
-    width: 150px;
+    width: 200px;
 }
 
 .informacion-producto {
