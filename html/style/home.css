@@ -1,3 +1,71 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background-image: url(../img/fondo.svg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen-logo {
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.izquierda-nav {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.derecha-nav {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    color: white;
+    text-decoration: none;
+}
+
+.boton-nav {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.texto-boton-nav {
+    margin-left: 5px;
+}
+
 main {
     width: 100%;
     font-size: 30px;
@@ -10,6 +78,7 @@ main {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    margin-bottom: 150px;
 }
 
 .presentacion-marcas {
@@ -35,10 +104,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(100, 100, 100);
     border-radius: 50px;
     width: 100%;
-    color: white;
 }
 
 .descripcion {
@@ -74,6 +141,21 @@ main {
 
 .minitexto {
     font-size: 8px;
+}
+
+#aside{
+    height: 600px;
+    width: 600px;
+    top: calc(50% - 250px);
+    right: 7%;
+}
+
+#aside model-viewer{
+    height: 600px;
+    width: 600px;
+    top: 0;
+    left: 0;
+    border: none;
 }
 
 footer {
