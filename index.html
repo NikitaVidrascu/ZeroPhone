@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./html/style/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <title>Document</title>
+    <title>ZeroPhone</title>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="izquierda-nav">
-                <img class="imagen-logo" src="html/img/Logo.png" alt="">
-                <a href="Home.html" class="titulo">
+                <img class="imagen-logo" src="./html/img/Logo.png" alt="">
+                <a href="./index.html" class="titulo">
                     <h1>ZeroPhone</h1>
                 </a>
             </div>
             <div class="derecha-nav">
-                <a href="Home.html" class="boton-nav">
+                <a href="./index.html" class="boton-nav">
                     <span class="material-symbols-outlined" style="font-size: 40px;">
                         account_circle
                     </span>
                     <h1 class="texto-boton-nav">Cuenta</h1>
                 </a>
-                <a href="Home.html" class="boton-nav">
+                <a href="./index.html" class="boton-nav">
                     <span class="material-symbols-outlined" style="font-size: 40px;">
                         shopping_cart
                     </span>
@@ -34,5 +39,60 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="productos">
+            <h1 class="presentacion-marcas">Seleccione la marca de telefono que busca</h1>
+            <div class="marcas">
+                <a href="./html/apple.html" class="Apple"><img src="img/icons8-mac-os-100.png" alt=""></a>
+                <a href="./html/samsung.html" class="Samsung"><img src="img/icons8-samsung-96.png" alt=""></a>
+                <a href="./html/xiaomi.html" class="Xiaomi"><img src="img/icons8-xiaomi-96.png" alt=""></a>
+                <a href="./html/google.html" class="Google"><img src="img/icons8-logo-de-google-96.png" alt=""></a>
+                <a href="./html/realme.html" class="Realme"><img src="img/realme.png" alt=""></a>
+            </div>
+        </div>
+        <div class="sobre-nosotros">
+            <h1>Sobre Nosotros</h1>
+            <div class="descripcion">
+                <div class="detalles">
+                    <img src="./html/img/envios.png" alt="">
+                    <div class="texto-detalles">
+                        <h2>Envios veloces</h2>
+                        <p>Los envios son los mas rapidos del oeste, llegaran de 12pm a 6am, ya que asi nos aseguramos
+                            que estéis en vuestra casa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="descripcion">
+                <div class="detalles">
+                    <div id="aside">
+                        <model-viewer src="./html/apple_iphone_based_mobile_phone.glb" alt="Gafas realidad virtual" auto-rotate camera-controls ar ios-src="./html/apple_iphone_based_mobile_phone.glb"></model-viewer>
+                    </div>
+                    <div class="texto-detalles">
+                        <h2>Calidad alta de productos</h2>
+                        <p>La calidad de nuestros productos es impresionante, ya que los productos llegan directamente
+                            de
+                            las fabrias de china, asi evitamos productos defectuosos <span class="minitexto">(y ademas
+                                nos sale mas barato)</span>.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="descripcion">
+                <div class="detalles">
+                    <img src="./html/img/atencion-cliente.avif" alt="">
+                    <div class="texto-detalles">
+                        <h2>Antencion al cliente excelente</h2>
+                        <p>Nuestro servicio de atencion cliente es de la mayor calidad posible, ya que nuestros
+                            tabjadores se esfuerzan al maximo, y para evitar el sobre esfuerzo, trabajan solo un
+                            dia los años bisiestos, exacto, el 29 de febrero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Eso es todo amigos</h1>
+    </footer>
 </body>
+
 </html>
