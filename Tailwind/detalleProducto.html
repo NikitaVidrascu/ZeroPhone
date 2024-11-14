@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ZeroPhone</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-gray-500 p-4 fixed w-full flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <div class="bg-gray-300 flex items-center justify-center w-16 h-16 rounded-full">Logo</div>
+            <h1 class="text-3xl">Título</h1>
+        </div>
+        <div class="flex space-x-4">
+            <div class="bg-gray-300 w-10 h-10 rounded-full flex items-center justify-center">Enlace</div>
+            <div class="bg-gray-300 w-10 h-10 rounded-full flex items-center justify-center">Enlace</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-4 pt-28 pb-12 flex lg:items-center flex-col lg:flex-row lg:justify-between">
+        <!-- Product Image -->
+        <div class="lg:pl-20">
+            <div class="bg-gray-300 w-full lg:w-64 h-96 lg:has-[70vh] flex items-center justify-center mb-4 lg:mb-0">
+                <span class="">Imagen Producto</span>
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="lg:ml-4 w-full lg:pl-20 lg:w-2/3 lg:flex lg:flex-col lg:justify-between">
+            <h2 class="text-2xl mb-2">Nombre Producto</h2>
+            <p class="mb-2">Info Producto</p>
+            <p class="mb-2">Info Producto</p>
+            <p class="mb-2">Info Producto</p>
+
+            <!-- Product Variants -->
+            <div class="mb-4">
+                <h3 class="text-lg mb-2">Variante de producto</h3>
+                <div class="flex gap-2">
+                    <div class="bg-gray-300 w-8 h-8"></div>
+                    <div class="bg-gray-300 w-8 h-8"></div>
+                    <div class="bg-gray-300 w-8 h-8"></div>
+                    <div class="bg-gray-300 w-8 h-8"></div>
+                    <div class="bg-gray-300 w-8 h-8"></div>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <h3 class="text-lg mb-2">Variante de producto</h3>
+                <div class="flex gap-2">
+                    <div class="bg-gray-300 w-16 h-8"></div>
+                    <div class="bg-gray-300 w-16 h-8"></div>
+                    <div class="bg-gray-300 w-16 h-8"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Price and Buttons -->
+        <div class="flex flex-row lg:flex-col items-center lg:pr-20 gap-2 mt-4">
+            <span class="text-xl mr-32 lg:mr-0">Precio</span>
+            <button class="bg-gray-300 px-4 py-2 lg:w-36">Botón</button>
+            <br>
+            <button class="bg-gray-300 px-4 py-2 lg:w-36">Botón</button>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
